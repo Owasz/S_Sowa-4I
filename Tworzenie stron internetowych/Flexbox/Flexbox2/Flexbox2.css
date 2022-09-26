@@ -1,0 +1,21 @@
+body{
+    display: flex;
+}
+
+.jeden{
+    background-color: orange;
+    height: 500px;
+    width: 100px;
+}
+
+.dwa{
+    background-color: grey;
+    height: 500px;
+    width: 100px;
+}
+
+.trzy{
+    background-color: darkgrey;
+    height: 500px;
+    width: 100px;
+}
