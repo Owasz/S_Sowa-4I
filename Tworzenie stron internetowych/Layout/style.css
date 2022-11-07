@@ -181,6 +181,58 @@ padding: 50px 0 30px 50px;
     background-color: skyblue;
 }
 
+.motto{
+    /* background-image: url('/images/motto.jpg'); */
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.motto-wraper{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+    color:white;
+}
+
+.motto-bgcolour{
+    background-color:rgba(0, 63, 114, 0.5);
+}
+
+.motto h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3,75rem;
+}
+
+.motto-text{
+    font-size: 3rem;
+    color:white;
+}
+
+.motto-author{
+    color:white;
+font-size: 1.5rem;
+}
+
+.hobyy div:nth-child(1){
+    background-image: url('/images/hobby1.jpg');
+}
+
+.hobyy div:nth-child(2){
+    background-image: url('/images/hobby2.jpg');
+}
+
+.hobyy div:nth-child(3){
+    background-image: url('/images/hobby3.jpg');
+}
+
+.hobyy div:nth-child(4){
+    background-image: url('/images/hobby4.jpg');
+}
+
 @media(max-width: 600px) {
     .container{
         width: 100%;
@@ -258,6 +310,30 @@ padding: 50px 0 30px 50px;
 
     }
 
+    .motto-wraper{
+        width: 100vw;
+        margin: 0;
+        padding: 80px 0;
+        text-align: center;
+        color:white;
+    }
+
+    .motto h2{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.25rem;
+    }
+    
+    .motto-text{
+        font-size: 1.75rem;
+        color:white;
+        padding: 80px 60px;
+    }
+    
+    .motto-author{
+        color:white;
+    font-size: 1.25rem;
+    }
+
 
 }
-
